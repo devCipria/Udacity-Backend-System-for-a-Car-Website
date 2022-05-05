@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="fa7c1110-d5c8-43d2-b65b-ca2bf2c4f1fd" name="pricing_data Mapping">
+      <data-sources db="3f18f7ec-8c05-4e60-a30f-8dc6a5f2145f" ddl="0142ce74-a5a6-44fe-8903-54979423abb4" />
+    </mapping>
+  </component>
+</project>
