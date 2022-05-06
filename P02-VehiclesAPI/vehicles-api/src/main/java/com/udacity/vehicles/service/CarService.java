@@ -126,8 +126,5 @@ public class CarService {
          * TODO: Delete the car from the repository.
          */
         repository.delete(car);
-
-
-
     }
 }
