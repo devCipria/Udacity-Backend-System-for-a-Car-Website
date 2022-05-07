@@ -67,7 +67,7 @@ public class CarService {
          * Note: The car class file uses @transient, meaning you will need to call
          *   the pricing service each time to get the price.
          */
-        car.setPrice(priceClient.getPrice(car.getId())); // can't I just use id that was passed in?
+        car.setPrice(priceClient.getPrice(car.getId()));
 
 
         /**
@@ -96,6 +96,7 @@ public class CarService {
                     .map(carToBeUpdated -> {
                         carToBeUpdated.setDetails(car.getDetails());
                         carToBeUpdated.setLocation(car.getLocation());
+                        carToBeUpdated.setCondition(car.getCondition());
                         return repository.save(carToBeUpdated);
                     }).orElseThrow(CarNotFoundException::new);
         }
