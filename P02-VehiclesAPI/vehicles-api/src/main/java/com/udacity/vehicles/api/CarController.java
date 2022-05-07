@@ -21,8 +21,9 @@ import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
 /**
  * Implements a REST-based controller for the Vehicles API.
  */
-@RestController
+
 //    https://knowledge.udacity.com/questions/816236
+@RestController
 @RequestMapping(value = "/cars", produces = {MediaType.APPLICATION_JSON_VALUE})
 class CarController {
 
